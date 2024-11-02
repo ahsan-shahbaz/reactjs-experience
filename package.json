@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "homepage": "https://ahsan-shahbaz.github.io/reactjs-experience"
+  },
+  "homepage": "https://ahsan-shahbaz.github.io/reactjs-experience",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
